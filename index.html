@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Profile Card</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="card">
+    <img src="https://via.placeholder.com/150" alt="Profile Picture" class="avatar">
+    <h2>Jane Doe</h2>
+    <p class="title">Web Developer</p>
+    <p>janedoe@example.com</p>
+    <a href="#">Contact</a>
+  </div>
+</body>
+</html>
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.card {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 300px;
+}
+
+.avatar {
+  width: 100px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.title {
+  color: gray;
+  font-size: 18px;
+  margin-bottom: 0.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  background-color: #007BFF;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  display: inline-block;
+  margin-top: 1rem;
+}
+
+a:hover {
+  background-color: #0056b3;
+}
